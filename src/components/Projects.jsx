@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description:
         "Personal portfolio website built with React and modern CSS animations",
-      image: "src/assets/portfolio.png",
+      image: "../assets/portfolio.png",
       liveLink: "https://your-live-site.com", // Project with both links
       githubLink: "https://github.com/yourusername/project",
       technologies: ["React", "CSS", "HTML"],
@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Hate Speech Detection",
       description:
         "project uses NLP and machine learning to classify text as hate speech or non-hate speech, improving online content moderation and safety.",
-      image: "src/assets/hate.png",
+      image: "../assets/hate.png",
       githubLink: "https://github.com/VellankiRajesh/Hate-Speach-Detection", // Project with only GitHub link
       technologies: ["Python", "Numpy & Pandas", "Scikit-learn"],
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Sales Forecasting Analysis",
       description:
         "project predicts future sales trends using historical data. It leverages Python, Power BI, and Excel for data visualization, trend analysis, and business decision-making.",
-      image: "src/assets/Sales.png",
+      image: "../assets/Sales.png",
       liveLink:
         "https://app.powerbi.com/groups/me/reports/cb6f2a8b-3827-4c52-bf9d-79e1eda3544c/ReportSection?experience=power-bi", // Project with both links
       githubLink:
@@ -35,7 +35,7 @@ const Projects = () => {
       title: "Credit EDA",
       description:
         "involved analyzing credit data to identify trends, detect anomalies, and improve risk assessment. Using Python insights were derived to enhance decision-making in financial analysis.",
-      image: "src/assets/credit.png",
+      image: "../assets/credit.png",
       technologies: ["Python", "np & pd", "seaborn & matplotlib"],
     },
     // Add more projects...
