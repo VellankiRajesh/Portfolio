@@ -1,4 +1,5 @@
 import "./Home.css";
+import profileImg from "../assets/profile.png";
 
 const Home = () => {
   return (
@@ -26,11 +27,7 @@ const Home = () => {
 
         <div className="right-section">
           <div className="profile-container">
-            <img
-              src="../assets/profile.png"
-              alt="Profile"
-              className="profile-image"
-            />
+            <img src={profileImg} alt="Profile" className="profile-image" />
           </div>
 
           <div className="social-links">
