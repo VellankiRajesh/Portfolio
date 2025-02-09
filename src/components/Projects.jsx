@@ -14,8 +14,8 @@ const Projects = () => {
       description:
         "Personal portfolio website built with React and modern CSS animations",
       image: portfolio,
-      liveLink: "https://your-live-site.com",
-      githubLink: "https://github.com/yourusername/project",
+      liveLink: "https://v-rajesh-portfolio.netlify.app/",
+      githubLink: "https://github.com/VellankiRajesh/Portfolio",
       technologies: ["React", "CSS", "HTML"],
     },
     {
