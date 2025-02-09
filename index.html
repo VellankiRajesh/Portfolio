@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Updated Favicon with Styling -->
+    <link id="favicon" rel="icon" type="image/png" href="src/assets/v.png" />
+    
+    <title>Vellanki Rajesh - Frontend Developer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+      /* Smooth Animation for Favicon */
+      @keyframes faviconBounce {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+      }
+      
+      /* Styling for Rounded Icon */
+      #favicon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%; /* Makes the favicon round */
+        animation: faviconBounce 2s infinite ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+      // Dynamic Favicon Animation
+      document.addEventListener("DOMContentLoaded", function () {
+        const favicon = document.getElementById("favicon");
+        let size = 32;
+        
+        setInterval(() => {
+          size = size === 32 ? 40 : 32;
+          favicon.setAttribute("sizes", `${size}x${size}`);
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
