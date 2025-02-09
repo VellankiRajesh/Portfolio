@@ -121,8 +121,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 ## 👨‍💻 Author
 
-- GitHub: [@yourusername]((https://github.com/VellankiRajesh))
-- LinkedIn: [Your Name]((https://www.linkedin.com/in/vellanki-rajesh-1b09a4285/))
+- GitHub: [@VellankiRajesh]((https://github.com/VellankiRajesh))
+- LinkedIn: [Vellanki Rajesh]((https://www.linkedin.com/in/vellanki-rajesh-1b09a4285/))
 
 ## 🙏 Acknowledgments
 
