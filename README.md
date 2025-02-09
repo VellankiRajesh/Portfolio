@@ -84,19 +84,6 @@ my-portfolio/
 └── package.json
 ```
 
-## 🖼️ Image Handling
-
-For proper image handling in development and production:
-
-1. Store all images in `src/assets/` directory
-2. Import images in components:
-   ```javascript
-   import profileImg from "../assets/profile.png";
-   ```
-3. Use imported images in your components:
-   ```javascript
-   <img src={profileImg} alt="Profile" />
-   ```
 
 ## 🚀 Deployment
 
@@ -128,21 +115,17 @@ To deploy on Netlify:
    - Modify personal information in `About.jsx`
    - Customize contact form in `Contact.jsx`
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/yourusername/portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/VellankiRajesh/portfolio/issues).
 
 ## 👨‍💻 Author
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername]((https://github.com/VellankiRajesh))
+- LinkedIn: [Your Name]((https://www.linkedin.com/in/vellanki-rajesh-1b09a4285/))
 
 ## 🙏 Acknowledgments
 
 - React.js team for the amazing framework
 - EmailJS for the email service integration
-- All contributors who helped improve this project
+
