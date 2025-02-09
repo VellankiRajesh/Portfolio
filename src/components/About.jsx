@@ -126,13 +126,9 @@ const About = () => {
             <h3 className="about-subtitle">Who am I?</h3>
             <div className="about-card">
               <p className="about-description">
-                I'm Vellanki Rajesh, a Frontend Developer and Data Analyst. I
-                specialize in creating responsive web applications using React
-                and other modern technologies. With a strong background in data
-                analysis, I have hands-on experience with tools like Python,
-                Power BI, and Excel. My goal is to build intuitive user
-                experiences and data-driven solutions that help businesses make
-                better decisions.
+               I'm Vellanki Rajesh, a dedicated Frontend Developer and Data Analyst with a passion for crafting seamless user experiences and data-driven solutions. I specialize in developing responsive, interactive web applications using React and modern technologies, ensuring high performance and intuitive design.
+
+With a strong foundation in data analytics, I have hands-on experience with tools like Python, Power BI, and Excel, enabling me to extract valuable insights and drive informed decision-making. My goal is to bridge the gap between design and functionality, creating user-centric applications that enhance business efficiency and innovation.
               </p>
             </div>
           </div>
