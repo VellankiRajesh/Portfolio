@@ -27,7 +27,7 @@ const Home = () => {
         <div className="right-section">
           <div className="profile-container">
             <img
-              src="src/assets/profile.png"
+              src="../assets/profile.png"
               alt="Profile"
               className="profile-image"
             />
